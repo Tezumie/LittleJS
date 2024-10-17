@@ -1,3 +1,15 @@
+## About This Fork
+
+This fork introduces two small but essential changes to ensure compatibility with the **AIJS.io Browser IDE**:
+
+1. **`crossOrigin = 'anonymous'` added to images:**  
+   This ensures images from external sources load correctly without CORS issues, allowing them to be drawn onto canvas elements for post-processing.
+
+2. **Full path reference to `tiles.png`:**  
+   The file path to `tiles.png` has been updated to the full path, to ensure it loads properly when referenced in the code.
+
+---
+
 # LittleJS - The Tiny Fast JavaScript Game Engine
 
 <div align="center">
