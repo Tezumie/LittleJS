@@ -1,6 +1,6 @@
 ## About This Fork
 
-This fork introduces two small but essential changes to ensure compatibility with the **AIJS.io Browser IDE**:
+This fork introduces two small but essential changes to ensure compatibility with [AIJS.io](https://aijs.io/editor) Browser IDE:
 
 1. **`crossOrigin = 'anonymous'` added to images:**  
    This ensures images from external sources load correctly without CORS issues, allowing them to be drawn onto canvas elements for post-processing.
