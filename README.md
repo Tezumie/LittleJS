@@ -8,6 +8,8 @@ This fork introduces two small but essential changes to ensure compatibility wit
 2. **Full path reference to `tiles.png`:**  
    The file path to `tiles.png` has been updated to the full path, to ensure it loads properly when referenced in the code.
 
+You can find the starter project on AIJS [here](https://aijs.io/editor?user=AIJS&project=little-js-starter).
+
 ---
 
 # LittleJS - The Tiny Fast JavaScript Game Engine
