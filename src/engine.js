@@ -304,6 +304,7 @@ function engineInit(gameInit, gameUpdate, gameUpdatePost, gameRender, gameRender
                 textureInfos[textureIndex] = new TextureInfo(image);
                 resolve();
             }
+            image.crossOrigin = 'anonymous';
             image.src = src;
         })
     );
